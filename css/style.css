@@ -52,3 +52,11 @@ img{
     background-color: black;
     color: lightgray;
 }
+
+.bg-dark{
+    background-color: black;
+}
+
+.bg-main{
+    background-color: var(--bg-main);
+}
