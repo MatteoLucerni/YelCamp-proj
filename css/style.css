@@ -60,3 +60,7 @@ img{
 .bg-main{
     background-color: var(--bg-main);
 }
+
+.text-gray{
+    color: gray;
+}

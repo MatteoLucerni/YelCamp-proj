@@ -1,3 +1,17 @@
 body{
     background-color: #fff;
 }
+
+/* hero */
+
+#hero .input-group{
+    height: 70px;
+}
+
+#hero .input-group span{
+    background-color: #fff;
+}
+
+#hero .card .box{
+    max-width: 500px;
+}
