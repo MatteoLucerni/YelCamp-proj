@@ -1,0 +1,28 @@
+body{
+    background-color: #fff;
+}
+
+/* main */
+
+main form{
+    max-width: 600px;
+}
+
+form input.form-control{
+    height: 60px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+form textarea.form-control{
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+form input.form-control::placeholder{
+    color: rgb(173, 173, 173);
+}
+
+form button.btn{
+    width: 100%;
+}

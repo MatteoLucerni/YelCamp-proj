@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/addCamp.css">
+    <title>YelpCamp: add campground</title>
+</head>
+<body>
+    <div class="container">
+        <header class="py-4">
+            <div class="navbar navbar-expand-lg">
+                <a class="navbar-brand pt-0">
+                    <img src="Assets/Logo.svg" alt="YelpCamp Logo">
+                </a>
+                <button class="navbar-toggler border-0 bg-main py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                    </ul>
+                    <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    <a href="login.html" class="btn ms-4">Create an account</a>
+                  </div>
+            </div>
+        </header>
+        <main id="form" class="d-lg-flex flex-column align-items-center mt-4">
+            <h1 class="mb-5">
+                Add New Campground
+            </h1>
+            <form action="search.html" class="w-100">
+                <div class="mb-3">
+                    <label for="camp-name" class="form-label">Campground Name</label>
+                    <input type="text" class="form-control" id="camp-name" placeholder="Seven Sisters Waterfall">
+                </div>
+                <div class="mb-3">
+                    <label for="camp-price" class="form-label">Price</label>
+                    <input type="number" class="form-control" id="camp-price" placeholder="Price in $">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="camp-image">Image</label>
+                    <input type="text" class="form-control" id="camp-image" placeholder="www.examplesute.com/image/2...">
+                </div>
+                <div class="mb-4">
+                    <label for="camp-price" class="form-label">Description</label>
+                    <textarea class="form-control" name="" id="camp-desc" cols="20" rows="8">A very beautiful experience!</textarea>
+                </div>
+                <button type="submit" id="submit-camp" class="btn">Add Campground</button>
+            </form>
+        </main>
+        <footer class="my-5">
+            <img src="Assets/Logo.svg" alt="YelpCamp Logo">
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
