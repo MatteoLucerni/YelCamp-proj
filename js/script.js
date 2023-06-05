@@ -18,5 +18,12 @@ closeAlert.addEventListener('click', function(){
 
 // search input filter on seach page
 searchButton.addEventListener('click', function(){
-    
+    const userSearch = inputSearch.value.toLowerCase();
+    for(let i = 0; i < cardTitiles.length; i++){
+        if(!cardTitiles[i].innerText.toLowerCase().includes(userSearch)){
+            mainCards[i].classList.add('d-none');
+        } else {
+            mainCards[i].classList.remove('d-none');
+        }
+    }
 })
